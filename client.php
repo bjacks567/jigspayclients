@@ -5,7 +5,7 @@ function intiate_payment() {
     $hash_secret = "hash_secret";
     $encryption_key = "encryption_key";
     $api_key = "api_key";
-    $create_order_url = "create_order_url";
+    $create_order_url = "https://pay.jigspay.com/newpayment.php";
     
 
     $merchant_order_id = "6DFDKJFGLKD343". rand(10,10000);
