@@ -144,6 +144,8 @@ class ResponseData
     end
 end
   
+
+# this class is to make sure the Net::HTTP doesn't capitalise the header names 
 class CaseSensitivePost < Net::HTTP::Post
     def initialize_http_header(headers)
       @header = {}
